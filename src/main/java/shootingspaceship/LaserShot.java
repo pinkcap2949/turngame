@@ -15,6 +15,7 @@ public class LaserShot extends Shot {
         if (!alive) return;
 
         g.setColor(Color.red);
-        g.fillOval(x_pos, y_pos - length, 4, length);
+        g.fillOval(x_pos, y_pos - length, 4, length); // 너비 4짜리 광선 앞으로 발사사
     }
 }
+

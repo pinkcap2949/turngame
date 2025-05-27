@@ -1,4 +1,4 @@
-package test;
+package shootingspaceship;
 
 import java.awt.*;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class BattleScreen extends JPanel {
     private void initBattleScreen() {
         setPreferredSize(new Dimension(800, 600));
         try {
-            backgroundImage = ImageIO.read(getClass().getResource("battlescreen.jpg"));
+            backgroundImage = ImageIO.read(getClass().getResource("/image/battlescreen.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("배경 이미지 로딩 실패");

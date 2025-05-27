@@ -1,4 +1,4 @@
-package test;
+package shootingspaceship;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,7 +26,8 @@ public class UnitSelectionScreen extends JPanel {
         String[] unitNames = {
                 "Assault Cruiser", "Guardian Battleship", "Medical Frigate", "Tactical Corvette"};
         String[] imageFiles = {
-                "AssaultCruiser.png", "Guardian Battleship.png", "MedicalFrigate.png", "TacticalCorvette.png"};
+                "/image/AssaultCruiser.png", "/image/GuardianBattleship.png", "/image/MedicalFrigate.png",
+                 "/image/TacticalCorvette.png"};
 
         for (int i = 0; i < 4; i++) {
             String unitName = unitNames[i];

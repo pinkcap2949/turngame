@@ -1,4 +1,4 @@
-package test;
+package shootingspaceship;
 
 public class Character {
     String roleSet;

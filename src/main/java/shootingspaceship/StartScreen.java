@@ -1,7 +1,8 @@
-package test;
+package shootingspaceship;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
@@ -16,7 +17,8 @@ public class StartScreen extends JPanel {
         setPreferredSize(new Dimension(800, 600));
 
         try {
-            backgroundImage = ImageIO.read(getClass().getResource("universe.jpg"));
+            backgroundImage = ImageIO.read(getClass().getResource("/image/universe.jpg"));
+            // ImageIO.read(new File("src/image/universe.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
